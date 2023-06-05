@@ -343,7 +343,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          | Home
+          Florian Pfahler | Home
         </title>
         <meta
           name="description"
