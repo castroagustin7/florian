@@ -1,0 +1,34 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import pic from './pic.jpg'
+
+
+export const meta = {
+  author: 'Florian Pfahler',
+  date: '2021-12-24',
+  title: 'Pelis UP!',
+  description:
+    'Description',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+<Image src={pic} alt="" />
+
+Lorem Ipsum
+
+### About me
+
+Lorem Ipsum
+
+#### Current roles:
+- Microsoft Learn Student Ambassador (Batch - January 2021)
+
+### Get started
+
+Lorem Ipsum
+
+### I am giving you 8 tips to build your personal brand and make friends in the tech industry
+
+#### 1. Use your real name, same username, and same profile picture to all of your social media
+> You don't need to use all of the social media you have, but you can use your [LinkedIn](https://www.linkedin.com/in/vinzvinci/), [Twitter](https://twitter.com/vinzvinci) and your [GitHub profile](https://github.com/vinzvinci) only like I did.
